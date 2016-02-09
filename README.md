@@ -1,4 +1,6 @@
-Atrium is a vertically-integrated stack for SDN deployments. This repository is a fork of the ONOS repo, with default-branch set to the support/atrium-16A branch. It supports Release 16/A of Atrium for both the router and fabric solutions. Documentation can be found here: https://github.com/onfsdn/atrium-docs/wiki
+Atrium-ONOS
+=============
+Atrium is a vertically-integrated stack for SDN deployments. This repository is a fork of the ONOS repo, with default-branch set to the support/atrium-16A branch. It supports Release 16/A of Atrium for both the router and fabric solutions. Atrium documentation can be found here: https://github.com/onfsdn/atrium-docs/wiki
 
 
 ONOS : Open Network Operating System

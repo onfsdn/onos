@@ -206,10 +206,8 @@ public class ControlPlaneRedirectManager {
             // ARP from router
             fromSelector = DefaultTrafficSelector.builder()
                     .matchInPort(controlPlanePort)
-                    .matchEthSrc(intf.mac())
                     .matchVlanId(intf.vlan())
                     .matchEthType(EthType.EtherType.ARP.ethType().toShort())
-                    .matchArpSpa(ip.ipAddress().getIp4Address())
                     .build();
 
             flowObjectiveService.forward(deviceId,
